@@ -1,0 +1,104 @@
+body {
+  background-image: url('../images/rbsmoke.jpg');
+  background-repeat: no-repeat; 
+  background-size: 100%;
+}
+
+#game-table {
+  display: none;
+  width: 450px;
+  margin: auto;
+}
+
+td {
+  border: 4px solid black;
+}
+
+td div {
+  background-color: white;
+  opacity: .85;
+  width: 150px;
+  height: 150px;
+}
+
+.X {
+  margin: auto 40px;
+  font-size:8em;
+  text-align: center;
+  vertical-align: middle;
+  color:blue;
+}
+
+.O {
+  margin: auto 30px;
+  vertical-align: middle;
+  font-size: 8em;
+  text-align: center;
+  color: red
+
+}
+
+.message-box {
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+  padding: 15px;
+  margin-top: -30px;
+  background-color: white;
+  opacity: .7;
+  border-radius: 15px;
+}
+#message-box {
+  display: none;
+}
+
+.space-repeat {
+  font-size: 2em;
+  font-weight: bold;
+  color: red;
+}
+
+.x-turn {
+  color:blue;
+  font-size: 5em;
+  margin: auto;
+  font-weight: bold;
+}
+
+.o-turn {
+  color:red;
+  font-size: 5em;
+  margin: auto;
+  font-weight: bold;
+}
+
+.cat {
+  color: orange;
+  font-size: 3em;
+  margin: auto;
+  font-weight: bold;
+}
+
+.win {
+  color: black;
+  font-size: 5em;
+  margin: auto;
+  font-weight: bold;
+}
+
+.banner {
+  margin: 0 auto ;
+}
+
+.banner h1 {
+  font-weight: bold;
+  font-size: 5em;
+  text-align: center;
+  opacity: .98; 
+  margin-bottom: 100px;
+}
+
+#start-game {
+  position: fixed;
+  margin-top: 550px;
+}
